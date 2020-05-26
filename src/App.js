@@ -19,7 +19,7 @@ function App () {
       />
       <Maquilas
         title='Maquilas'
-        text='Tenemos varios sementales para la venta de semen congelado o monta directa. Avalados por la ONO y el CONARGEN.'
+        text='Tenemos sementales para la venta de semen congelado o monta directa. Avalados por la ONO y el CONARGEN.'
       />
       <AboutUs
         title='Acerca de nosotros'
