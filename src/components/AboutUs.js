@@ -13,6 +13,7 @@ const AboutUs = ({ title, text }) => {
       </div>
       <h5 className='text-contact ml-4'>Contacto</h5>
       <div><span className='sub-text-about ml-4'>Cel: 3310176687</span></div>
+      <div><span className='sub-text-about ml-4'>e-mail: roblesgallo.9826gmail.com</span></div>
       <div><span className='sub-text-about ml-4'>Nos encontramos al sur de Jalisco</span></div>
       <div><span className='sub-text-about ml-4'><a href={url}>Carretera teocuitatlan 404, N° 201. Teocuitatlán de Corona, jalisco, México</a></span></div>
     </div>
