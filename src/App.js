@@ -15,7 +15,7 @@ function App () {
       <Start />
       <Products
         title='Nuestros productos'
-        text='Ofrecemos carne de la más alta calidad, nuestros borregos pastan en praderas con pastos libres de fertilizantes'
+        text='Ofrecemos carne de la más alta calidad, nuestros borregos pastan en praderas libres de fertilizantes'
       />
       <Maquilas
         title='Maquilas'
