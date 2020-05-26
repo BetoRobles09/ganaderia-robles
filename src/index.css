@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +11,93 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.banner {
+  background-image: url('./components/imgs/sheep_bg.jpg');
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  width: 15%
+}
+
+.about-us {
+  background-color: #284F99;
+}
+
+.text-menu {
+  color: #284F99;
+  text-align: left;
+  margin-right: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.text-banner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 450%;
+  text-shadow: 4px 4px black;
+}
+
+.text-title {
+  position: static;
+  top: 30%;
+  color: #EFC600;
+  font-family: 'Oswald', sans-serif;
+  font-size: 200%;
+}
+.sub-text-products {
+  position: static;
+  top: 70%;
+  color: #284F99;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+.sub-text-about {
+  position: static;
+  top: 70%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+.line {
+  border: 1px solid #EFC600;
+  background-color: #EFC600;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.img-products {
+  display: block;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 1rem;
+  width: 50%;
+}
+
+.text-contact {
+  position: static;
+  top: 30%;
+  color: #EFC600;
+  font-family: 'Oswald', sans-serif;
+  font-size: 145%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
