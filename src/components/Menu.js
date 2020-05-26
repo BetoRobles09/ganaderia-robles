@@ -3,7 +3,6 @@ import '../index.css'
 import Logo from './imgs/logo.png'
 
 const Menu = () => {
-
   return (
     <nav className='navbar navbar-light navbar-expand-md bg-faded justify-content-center'>
       <img src={Logo} alt='logo' className='logo' />
